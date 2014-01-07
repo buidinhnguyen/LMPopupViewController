@@ -5,8 +5,11 @@
 //  Created by Martin Juhasz on 11.05.12.
 //  Copyright (c) 2012 martinjuhasz.de. All rights reserved.
 //
+// Update Nguyen Bui: 7 Jan 2014
 
 #import <UIKit/UIKit.h>
+
+#define kPopupViewControllerDismissedNotification       @"com.leftmobile.popupviewcontrollerdismissed"
 
 @class MJPopupBackgroundView;
 

@@ -369,6 +369,8 @@ static void * const keypath = (void*)&keypath;
 
 - (void(^)(void))dismissedCallback
 {
+    [[NSNotificationCenter defaultCenter] postNotificationName:kPopupViewControllerDismissedNotification
+                                                        object:self];
     return objc_getAssociatedObject(self, &MJPopupViewDismissedKey);
 }
 
