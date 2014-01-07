@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3BE31D0F-787D-4B64-9C5B-038E43EC2B9C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LMPopupViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68FE0D8E-9B32-4E9C-8CFC-4EA192A9A054</key>
+		<string>https://github.com/buidinhnguyen/LMPopupViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LMPopupViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68FE0D8E-9B32-4E9C-8CFC-4EA192A9A054</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/buidinhnguyen/LMPopupViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68FE0D8E-9B32-4E9C-8CFC-4EA192A9A054</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68FE0D8E-9B32-4E9C-8CFC-4EA192A9A054</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LMPopupViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

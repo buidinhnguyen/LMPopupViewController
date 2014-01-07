@@ -22,6 +22,8 @@
 		232917F7187C3E2000D869DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232917D6187C3E2000D869DA /* UIKit.framework */; };
 		232917FF187C3E2000D869DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232917FD187C3E2000D869DA /* InfoPlist.strings */; };
 		23291801187C3E2000D869DA /* LMPopupViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23291800187C3E2000D869DA /* LMPopupViewControllerTests.m */; };
+		2329180F187C3EB100D869DA /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329180C187C3EB100D869DA /* MJPopupBackgroundView.m */; };
+		23291810187C3EB100D869DA /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329180E187C3EB100D869DA /* UIViewController+MJPopupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		232917FC187C3E2000D869DA /* LMPopupViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LMPopupViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		232917FE187C3E2000D869DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23291800187C3E2000D869DA /* LMPopupViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPopupViewControllerTests.m; sourceTree = "<group>"; };
+		2329180B187C3EB100D869DA /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		2329180C187C3EB100D869DA /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		2329180D187C3EB100D869DA /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		2329180E187C3EB100D869DA /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		232917D8187C3E2000D869DA /* LMPopupViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2329180A187C3EB100D869DA /* Source */,
 				232917E1187C3E2000D869DA /* AppDelegate.h */,
 				232917E2187C3E2000D869DA /* AppDelegate.m */,
 				232917E4187C3E2000D869DA /* Main_iPhone.storyboard */,
@@ -153,6 +160,17 @@
 				232917FD187C3E2000D869DA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2329180A187C3EB100D869DA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2329180B187C3EB100D869DA /* MJPopupBackgroundView.h */,
+				2329180C187C3EB100D869DA /* MJPopupBackgroundView.m */,
+				2329180D187C3EB100D869DA /* UIViewController+MJPopupViewController.h */,
+				2329180E187C3EB100D869DA /* UIViewController+MJPopupViewController.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2329180F187C3EB100D869DA /* MJPopupBackgroundView.m in Sources */,
+				23291810187C3EB100D869DA /* UIViewController+MJPopupViewController.m in Sources */,
 				232917EC187C3E2000D869DA /* ViewController.m in Sources */,
 				232917E3187C3E2000D869DA /* AppDelegate.m in Sources */,
 				232917DF187C3E2000D869DA /* main.m in Sources */,
@@ -474,6 +494,7 @@
 				23291806187C3E2000D869DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23291807187C3E2000D869DA /* Build configuration list for PBXNativeTarget "LMPopupViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +503,7 @@
 				23291809187C3E2000D869DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
